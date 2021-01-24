@@ -4,13 +4,14 @@ layout: homepage
 sidebar: vsts
 permalink: /labs/vsts/
 folder: /labs/vsts/
+description: Learn how you can plan better, code together and ship faster with Visual Studio Team Services
 ---
 
 <div class="vstsMain">
 <div class="productcolmain">
   <div class="pageheader">
              <b>DevOps with Visual Studio Team Services</b> </div>
-     <div class="herotext2">       
+     <div class="herotext2">
              Learn how you can plan better, code together and ship faster with Visual Studio Team Services
   </div>
 </div>
@@ -19,9 +20,8 @@ folder: /labs/vsts/
 ## Step-by-Step Tutorials
 
 <div class="lablist">
-    <div class="header2"> <b>Getting Started</b></div>
-     <ul class="fa-ul">
-       <li class="labslistitems"><i class="fa-li fa fa-book" style="color:  #002868;"></i> <a href="agile/">Agile Planning and Portfolio Management </a>    </li>
+    <ul class="fa-ul">
+       <li class="labslistitems" style="margin-top: 0px;"><i class="fa-li fa fa-book" style="color:  #002868;"></i> <a href="agile/">Agile Planning and Portfolio Management </a>    </li>
        <li class="labslistitems"><i class="fa-li fa fa-book" style="color:  #002868;"></i> <a href="git/">Version Controlling with Git  </a>    </li>
        <li class="labslistitems"><i class="fa-li fa fa-book" style="color:  #002868;"></i> <a href="packagemanagement/">Package Management</a> </li>
        <li class="labslistitems"><i class="fa-li fa fa-book" style="color:  #002868;"></i> <a href="continuousintegration/">Setting up a Continuous Integration</a> </li>
@@ -51,9 +51,9 @@ In order to complete these labs you will need
 
 - **Visual Studio 2017** or higher version - You will need Visual Studio for some of the labs. You can use your own machine with VS 2017 installed, or download and use the latest [ALM VM](../tfs/),  or spin up a VM pre-installed with Visual Studio on [Azure](https://portal.azure.com){:target="_blank"}.
 
-- You can use the [**Visual Studio Team Services Demo Data generator**](https://vstsdemogenerator.azurewebsites.net){:target="_blank"} to provision a project with pre-defined data on to your Visual Studio Team Services account.
+- You can use the [**Visual Studio Team Services Demo Data generator**](https://azuredevopsdemogenerator.azurewebsites.net){:target="_blank"} to provision a project with pre-defined data on to your Visual Studio Team Services account.
 
-## Working with VSTS DemoGenerator
+## Working with VSTS DemoGenerator test
 
 Visual Studio Team Services Demo Generator helps you create projects on your Visual Studio Team Services account with preset sample content which includes source code, work items, service endpoints, build and release definitions based on a template you choose. The purpose of this system is to help follow hands-on-labs, demos and other education material provided by Microsoft. For step-by-step instructions on using the demo generator to provision your project, please see this [document](/labs/vsts/VSTSDemoGenerator)
 

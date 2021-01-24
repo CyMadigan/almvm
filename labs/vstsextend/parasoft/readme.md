@@ -5,8 +5,7 @@ sidebar: vsts2
 permalink: /labs/vstsextend/parasoft/
 folder: /labs/vstsextend/parasoft/
 ---
-
-Last updated : {{ "now" | date: "%b %d, %Y" }}
+<div class="rw-ui-container"></div>
 
 ## Overview
 

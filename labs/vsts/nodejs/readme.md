@@ -1,14 +1,18 @@
 ---
-title: DevOps with Node.js, Team Services, and Azure App Service
+title: Configure CI/CD for Node application with Azure Pipelines
 layout: page
-sidebar: vsts2
+sidebar: vsts
 permalink: /labs/vsts/nodejs/
 folder: /labs/vsts/nodejs/
+updated: blank
 ---
+<div class="rw-ui-container"></div>
 
 ## Overview
 
 In this lab, we will present a scenario where Visual Studio Team Services (VSTS) can enable Node.js developers with continuous integration and deployment features. The scenario demonstrates how a Node.js developer using [Visual Studio Code](http://code.visualstudio.com) and various Azure-related VS Code extensions to create a new Azure App Service and use Git-based deployment. You'll learn how a Node.js developer can use VSTS to ensure that their code is deployed automatically to an Azure App Service when code is committed to a VSTS Git repository.
+
+<div class="bg-slap"><img src="./media/mslearn.png" class="img-icon-cloud" alt="MS teams" style="width: 48px; height: 48px;">Want additional learning? Check out the <a href="https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/" target="_blank"><b><u> Automate Node.js deployments with Azure Pipelines </u></b></a> module on Microsoft Learn.</div>
 
 ## Prerequisites
 
@@ -286,12 +290,14 @@ Now the build definition is complete running it will result in the code being de
 1. Edit the code in `view\index.handlebars` to add a `dl` list containing a presentation of the articles in the view model.
 
     ```handlebars
+    {% raw %}
     <dl>
-        \{{#each articles\}}
+        {{#each articles}}
         <dt>{{title}}</dt>
         <dd>{{text}}</dd>
-        \{{\/each\}}
+        {{/each}}
     </dl>
+    {% endraw %}
     ````
 
     ![Edit view code](media/48-edit-view-code.png)

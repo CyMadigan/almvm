@@ -5,8 +5,7 @@ sidebar: vsts2
 permalink: /labs/vstsextend/github/
 folder: /labs/vstsextend/github/
 ---
-
-Last updated : {{ "now" | date: "%b %d, %Y" }}
+<div class="rw-ui-container"></div>
 
 ## Overview
 
@@ -62,7 +61,7 @@ There are multiple ways to add code to a GitHub repository. We can start with a 
 
 ## Setting up the VSTS team project
 
-1. Use the [VSTS Demo Generator](https://vstsdemogenerator.azurewebsites.net/?Name=GitHub&TemplateId=77366) to provision the team project on the VSTS account.
+1. Use the [VSTS Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/?Name=GitHub&TemplateId=77366) to provision the team project on the VSTS account.
 
    > **VSTS Demo Generator** helps you create team projects on your VSTS account with sample content that include source code, work items,iterations, service endpoints, build and release definitions based on the template you choose during the configuration.
 

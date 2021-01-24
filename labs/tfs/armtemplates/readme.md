@@ -4,11 +4,10 @@ layout: page
 sidebar: tfs
 permalink: /labs/tfs/armtemplates/
 folder: /labs/tfs/armtemplates/
+version: Lab version - 15.4.1
+updated: Last updated - 10/26/2017
 ---
-
-Lab version:15.4.1
-
-Last updated:10/26/2017
+<div class="rw-ui-container"></div>
 
 ## Overview
 
@@ -22,7 +21,7 @@ In this lab, you will deploy a web app and SQL database. However, the steps are 
 
 In order to complete this lab you will need the Visual Studio 2017 virtual machine provided by Microsoft. Click the button below to launch the virtual machine on the Microsoft Hands-on-Labs portal.
 
-<a href="https://www.microsoft.com/handsonlabs/SelfPacedLabs?storyId=external%3A%2F%2Fcontent-private%2Fcontent%2Fexternal%2FMicrosoft-Virtual-Labs%2FDT00154" class="launch-hol" role="button" target="_blank"><span class="lab-details">Launch the virtual machine</span></a>
+<a href="https://labondemand.com/AuthenticatedLaunch/38294?providerId=4" class="launch-hol" role="button" target="_blank"><span class="lab-details">Launch the virtual machine</span></a>
 
 Alternatively, you can download the virtual machine from [here](../almvmdownload/)
 

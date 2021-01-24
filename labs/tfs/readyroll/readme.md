@@ -4,7 +4,9 @@ layout: page
 sidebar: tfs
 permalink: /labs/tfs/readyroll/
 folder: /labs/tfs/readyroll/
+updated: blank
 ---
+<div class="rw-ui-container"></div>
 
 ## Introduction
 
